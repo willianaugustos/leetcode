@@ -1,10 +1,6 @@
 ﻿namespace reverse_linked_list;
 
-public class ListNode {
-      public int val;
-      public ListNode? next;
-      public ListNode(int val=0, ListNode? next=null) {
-          this.val = val;
-          this.next = next;
-      }
+public record ListNode (int val, ListNode? next=null) {
+      public readonly int val = val;
+      public readonly ListNode? next = next;
 }
