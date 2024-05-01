@@ -8,9 +8,9 @@ public static class Solution {
         while (i<nums.Length)
         {
             j=i+1;
-            while (j<nums.Length)
+            while (j<nums.Length && j-i <= k)
             {
-                if (nums[j]==nums[i] && Math.Abs(i-j)<=k)
+                if (nums[j]==nums[i] && j-i<=k)
                 {
                     result=true;
                     break;
