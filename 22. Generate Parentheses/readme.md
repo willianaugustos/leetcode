@@ -19,3 +19,6 @@ Output: ["()"]
 #### Constraints:
 
 1 <= n <= 8
+
+
+[Link to Leetcode](https://leetcode.com/problems/generate-parentheses/description/)
